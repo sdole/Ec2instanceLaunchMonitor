@@ -1,0 +1,11 @@
+change_set_number: 1
+env: prod
+lambda_code:
+- folder: ec2-launch-monitor
+  logical_resource_name: Ec2MonitorFunction
+project_name: Ec2LaunchMonitor
+region: us-east-1
+release_bucket: ssi-automation-us-standard
+template: ec2-launch-monitor.template
+template_parameters: ec2-launch-monitor.config.json
+version: 1.0.0
