@@ -1,0 +1,4 @@
+{
+  "MetricName":"InstanceStateEvent",
+  "MetricNameSpace":"SSI/Arch/EC2"
+}

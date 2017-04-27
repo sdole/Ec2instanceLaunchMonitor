@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "SgParm",
+    "ParameterValue": "sg-df37f2b9"
+  },
+  {
+    "ParameterKey": "SubnetParm",
+    "ParameterValue": "subnet-d6b450a0,subnet-14b9ac71,subnet-7a59ab1e"
+  },
+  {
+    "ParameterKey": "IamRoleArnParm",
+    "ParameterValue": "arn:aws:iam::623990728151:role/arch/reporting/lambdaexec/IamAutomationRoles-1-0-0-Ec2LaunchMonitorLambdaFu-1O1TRB20U955Y"
+  },
+  {
+    "ParameterKey": "ReleaseBucket",
+    "ParameterValue": "ssi-automation-us-standard"
+  },
+  {
+    "ParameterKey": "AlarmsTopicParm",
+    "ParameterValue": "arn:aws:sns:eu-west-1:623990728151:RootVolumeTagger-1-0-0-DEV-dev-AllAlarmsTopic-1XPCS195EFFN5"
+  }
+]
