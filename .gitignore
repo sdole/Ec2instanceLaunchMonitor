@@ -1,0 +1,7 @@
+.idea
+ec2-instance-launch-monitor.iml
+us-east-1.yaml
+eu-west-1.yaml
+lambda/ec2-launch-monitor/*.json
+cloudformation/ec2-launch-monitor.eu-west-1.config.json
+cloudformation/ec2-launch-monitor.us-east-1.config.json

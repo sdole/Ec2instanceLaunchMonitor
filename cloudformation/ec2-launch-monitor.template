@@ -78,9 +78,9 @@
       "Type": "AWS::Lambda::Function", 
       "Properties": {
         "Code": {
-          "S3Bucket": "ssi-automation-ireland", 
-          "S3Key": "Ec2LaunchMonitor/1.0.0/prod/lambda/ec2-launch-monitor.zip", 
-          "S3ObjectVersion": "j95bpJBOWC37IFfkew_Gq1dm5TLKZT9s"
+          "S3Bucket": "",
+          "S3Key": "",
+          "S3ObjectVersion": ""
         }, 
         "VpcConfig": {
           "SubnetIds": {
@@ -106,7 +106,6 @@
       "Type": "String"
     }, 
     "IamRoleArnParm": {
-      "Default": "arn:aws:iam::623990728151:role/arch/reporting/lambdaexec/IamAutomationRoles-1-0-0-Ec2LaunchMonitorLambdaFu-1O1TRB20U955Y", 
       "Type": "String"
     }, 
     "SgParm": {
@@ -121,7 +120,6 @@
       "Type": "String"
     }, 
     "RolesStackNameParm": {
-      "Default": "IamAutomationRoles-1-0-0-dev", 
       "Type": "String"
     }
   }
